@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Documents</title>
+    <style>
+        table {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -17,13 +22,31 @@
     </thead>
     <tbody>
     <tr>
-        <td>Data 1</td>
-        <td>Data 1</td>
-        <td>Data 1</td>
-        <td rowspan="2">Data 1</td>
+        <td colspan="2" style="background-color: crimson;text-align: center">Row1 Col1</td>
+        <td>Row1 Col1</td>
+        <td colspan="2"
+            style="text-align:center;background-color:red;font-family: cursive;color: blue;font-weight: bolder"> Row1
+            Col1
+        </td>
+        <!--<td>Row1 Col1</td>-->
     </tr>
     <tr>
-        <td colspan="3">Data 1</td>
+        <!--<td>Row2 Col2</td>-->
+        <td>Row2 Col2</td>
+        <td>Row2 Col2</td>
+        <td>Row2 Col2</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;color: blue;background-color: aquamarine">Row3 Col3</td>
+        <!--<td>Row3 Col3</td>-->
+        <td rowspan="2" style="background-color: lightcoral;font-family:'Times New Roman';">Row3 Col3</td>
+        <td>Row3 Col3</td>
+    </tr>
+    <tr>
+        <td>Row4 Col4</td>
+        <td>Row4 Col4
+            <!--<td>Row4 Col4</td>-->
+        <td>Row4 Col4</td>
     </tr>
     </tbody>
 </table>
