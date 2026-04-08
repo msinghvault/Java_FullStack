@@ -11,13 +11,77 @@
             border: 2px solid red;
             margin: auto;
         }
+
+        header, footer, section {
+            width: 700px;
+            height: 120px;
+            border: 2px solid darkblue;
+            margin: 10px auto;
+        }
+
+        section {
+            height: 300px;
+        }
+
+        article {
+            width: 302px;
+            height: 100px;
+            border: 2px solid red;
+            margin: 22px;
+            float: left;
+        }
+
+        article#content {
+            width: 653px;
+            margin: 22px;
+            border: 2px solid red;
+            margin: 22px;
+        }
+
+        li {
+            list-style: none;
+            background: darkgray;
+            margin: 8px;
+            width: 200px;
+            text-align: center;
+            float: left;
+            height: 20px;
+        }
+
     </style>
-
-
 </head>
 <body>
 <main>
+    <header>
+        <nav>
+            <ul>
+                <li style="background-color: lightgreen;font-weight: bold;">Google</li>
+                <li style="background-color: lightblue;font-weight: bold;">Youtube</li>
+                <li style="background-color: lightpink;font-weight: bold;">Bing</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <audio controls>
+                <source src=".././sounds/audiopapkin-riser-hit-sfx-001-289802.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </article>
+        <article>
+            <audio controls>
+                <source src=".././sounds/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3"
+                        type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </article>
+        <article id="content"></article>
+    </section>
+    <footer style="background-color: lightblue;font-style: italic;text-align: center;"><br><br> When you use our
+        services,
+        you’re trusting us with your information. We understand this is a big
+        responsibility and work hard to protect your information and put you in control.
+    </footer>
 </main>
-
 </body>
 </html>
