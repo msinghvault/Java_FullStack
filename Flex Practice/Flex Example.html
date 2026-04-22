@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Example</title>
+
+    <style>
+        #container {
+            background-color: red;
+            padding: 2px;
+            height: 800px;
+            /* overflow: auto; */
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: nowrap; */
+            flex-flow:row wrap;
+        }
+
+        .item {
+            background-color: darkblue;
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            color: white;
+            text-align: center;
+            /* float: left; */
+        }
+
+        .h2 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="item">
+            <h2>Item 1</h2>
+        </div>
+        <div class="item">
+            <h2>Item 2</h2>
+        </div>
+        <div class="item">
+            <h2>Item 3</h2>
+        </div>
+        <div class="item">
+            <h2>Item 4</h2>
+        </div>
+        <div class="item">
+            <h2>Item 5</h2>
+        </div>
+        <div class="item">
+            <h2>Item 6</h2>
+        </div>
+        <div class="item">
+            <h2>Item 7</h2>
+        </div>
+    </div>
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe adipisci fuga accusantium ipsum nisi reiciendis
+        iure quisquam, est natus error laborum itaque quidem rerum. Accusamus repellendus ad tempore distinctio
+        quibusdam?</h2>
+</body>
+
+</html>
