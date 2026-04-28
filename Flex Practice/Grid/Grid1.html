@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Examples
+    </title>
+
+    <style>
+        .main {
+            background-color: lightskyblue;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            /* gap: 10px */
+            row-gap: 10px;
+                column-gap: 10px;
+        }
+
+        .main div {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            padding: 2px;
+            border: 1px solid black;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+</body>
+
+</html>
